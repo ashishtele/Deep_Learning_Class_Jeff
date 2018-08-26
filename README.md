@@ -4,3 +4,4 @@
 - Regression using keras
 - Classification iris: accuracy, log loss, earlystoping, modelcheckpoint
 - Regression mpg: RMSE, modelcheckpoint, kfold
+- Binary classification - Breast Cancer data
