@@ -6,3 +6,4 @@
 - Regression mpg: RMSE, modelcheckpoint, kfold
 - Binary classification - Breast Cancer data
 - Regression with lift curve
+- L1 and L2 regularization
