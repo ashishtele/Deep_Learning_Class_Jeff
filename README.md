@@ -8,4 +8,4 @@
 - Regression with lift curve
 - L1 and L2 regularization
 - Basic LSTM program
-- Sunsplot (LSTM) using keras
+- Sunsplot (LSTM) using keras.
