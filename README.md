@@ -17,3 +17,8 @@
 `Question:` Mini-batch as powers of 2?
 
 `Answer:` Many vectorized operation implementations work faster when their inputs are sized in powers of 2. Mini-batch is a hyperparameter but it is not very common to cross-validate it. It is usually based on memory constraints (if any), or set to some value, e.g. 32, 64 or 128.
+
+`Question:` What are the drawbacks of Sigmoid activation function?
+
+`Answer:` 1. Sigmoids saturate and kill gradients. If the initial weights are too large then most neurons would become saturated and the network will barely learn.
+          2. Sigmoid outputs are not zero-centered. This could introduce undesirable zig-zagging dynamics in the gradient updates for the weigthts. 
